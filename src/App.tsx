@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   const AWS_SECRET_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE_SECRET_KEY_DO_NOT_COMMIT";
   const [count, setCount] = useState(0);
-  console.log("count", count);
+  console.log("AWS_SECRET_ACCESS_KEY", AWS_SECRET_ACCESS_KEY);
   return (
     <>
       <section id="center">
